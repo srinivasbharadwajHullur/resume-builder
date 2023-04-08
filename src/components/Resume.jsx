@@ -28,17 +28,18 @@ const Resume = () => {
         })}
        
       </div>
+      <hr />
       <div className="col-md-6">
         <h3>Education</h3>
         <p>{formData.educationInformation}</p>
         <p>{formData.extraEducationField}</p>
+        <hr />
         <h3>Experience</h3>
         <h4>{formData.experienceInformation}</h4>
         <h4>{formData.extraExperienceField}</h4>
         <ul>
           <li>Developed and maintained the company website using HTML, CSS, and JavaScript</li>
           <li>Collaborated with the design team to create responsive and user-friendly interfaces</li>
-          <li>Implemented a mobile-first approach to ensure the website was optimized for all devices</li>
         </ul>
       </div>
     {/* </div> */}
